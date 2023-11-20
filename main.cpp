@@ -4,8 +4,8 @@
 class Record {
 public:
   // Constructor
-  Record(const std::string &album, int year, const std::string &artist,
-         const std::string &genre)
+  Record(const std::string album, int year, const std::string artist,
+         const std::string genre)
       : album(album), year(year), artist(artist), genre(genre) {}
 
   // Member functions to access attributes
